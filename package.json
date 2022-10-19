@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "d3": "^7.6.1",
+    "d3-cloud": "^1.2.5",
+    "vue": "^3.2.13",
+    "vue-d3-cloud": "^0.2.0",
+    "vue-wordcloud": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
