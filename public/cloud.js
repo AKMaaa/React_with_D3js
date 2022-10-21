@@ -52,4 +52,4 @@ d3.json(DATA_FILE_PATH).then(function (data) { // v5
 
 test();
 
-console.log("WordCloudフォルダないだよ！！");
+console.log("HOMEだよ！！");

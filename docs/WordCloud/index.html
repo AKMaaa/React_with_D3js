@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" href="/WordCloud/favicon.ico">
     <title>
         wordcloud
     </title>
+    <!-- word-cloudの読み取り -->
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
 </head>
 
 <body>
@@ -16,11 +19,11 @@
         <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
                 Please enable it to continue.</strong>
     </noscript>
-    <div>HOME</div>
+    <div>wordcloud pages</div>
     <div id="app"></div>
     <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-    <script type="text/javascript" src="cloud.js"></script>
-    <script type="text/javascript" src="d3.layout.cloud.js"></script>
+    <script type="text/javascript" src="/WordCloud/cloud.js"></script>
+    <script type="text/javascript" src="/WordCloud/d3.layout.cloud.js"></script>
 </body>
 
 </html>
